@@ -1,0 +1,11 @@
+"manifest.description" = "Ce plugin permet à l'utilisateur de créer une liste de lecture à partir d'albums sélectionnés dans Picard. Le résultat est enregistré dans un fichier `*.m3u8` contenant du texte encodé en UTF-8."
+"manifest.long_description" = "Ce plugin permet à l'utilisateur de générer une liste de lecture à partir d'albums sélectionnés dans Picard. Le résultat est enregistré dans un fichier `*.m3u8` contenant du texte encodé en UTF-8. Des chemins d'accès relatifs sont utilisés lorsque les fichiers audio se trouvent dans le même répertoire que la liste de lecture ; dans le cas contraire, ce sont des chemins d'accès absolus (complets) qui sont utilisés.\n\nCe plugin est basé sur le plugin « Generate M3U playlist » de Picard v2, créé par Francis Chin, Sambhav Kothari et Chris Hylen, et a été adapté pour fonctionner avec Picard v3 par Bob Swift."
+"manifest.name" = "Créer une liste de lecture"
+
+"ui.action.generate_playlist.title" = "Créer une liste de lecture"
+"ui.dialog.no_files.text" = "Aucun fichier audio ne correspond à l'un des albums sélectionnés ; il n'y a donc aucune entrée de liste de lecture à créer."
+"ui.dialog.no_files.title" = "Aucun fichier"
+"ui.dialog.save_error.text" = "Erreur lors de l'écriture du fichier de liste de lecture.\n\nFichier : %s\n\nErreur : %s"
+"ui.dialog.save_error.title" = "Erreur d'enregistrement"
+"ui.dialog.save_playlist.filter" = "Liste de lecture"
+"ui.dialog.save_playlist.title" = "Enregistrer une nouvelle liste de lecture"
